@@ -1,0 +1,85 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.studio.project.attiny817-basic-peripherals-studio",
+        "version": "1.0.0",
+        "displayName": "Basic Peripherals",
+        "projectName": "attiny817-basic-peripherals-studio",
+        "shortDescription": "This repository will introduce basic peripherals of the ATtiny817 such as ADC, PWM and USART.",
+        "ide": {
+            "name": "Studio",
+            "semverRange": ">=7.0.2397"
+        },
+        "compiler": [
+            {
+                "name": "AVR-GCC",
+                "semverRange": "^5.4.0"
+            }
+        ],
+        "dfp": {
+            "name": "ATtiny_DFP",
+            "semverRange": "^1.6.316"
+        },
+        "configurator": {
+            "name": "START",
+            "semverRange": ">=1.7.360"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "ATtiny817",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "subcategories": [
+            "START",
+            [
+                "Peripherals",
+                "ADC"
+            ],
+            [
+                "Peripherals",
+                "PWM"
+            ],
+            [
+                "Peripherals",
+                "USART"
+            ],
+            [
+                "Peripherals",
+                "TIMER"
+            ],
+            [
+                "Development Kit",
+                "ATtiny817 Xplained Pro"
+            ]
+        ],
+        "peripherals": [
+            "ADC",
+            "PWM",
+            "USART",
+            "TIMER"
+        ],
+        "keywords": [
+            "",
+            ""
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
